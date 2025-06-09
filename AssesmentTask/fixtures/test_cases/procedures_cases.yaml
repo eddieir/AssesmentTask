@@ -1,0 +1,11 @@
+- input: "Patient underwent angioplasty and a CT scan."
+  expected:
+    procedures: ["angioplasty", "CT scan"]
+
+- input: "No procedures were performed."
+  expected:
+    procedures: []
+
+- input: "The patient had a biopsy and an MRI."
+  expected:
+    procedures: ["biopsy", "MRI"]

@@ -1,0 +1,11 @@
+- input: "Patient was diagnosed with diabetes and hypertension."
+  expected:
+    diagnoses: ["diabetes", "hypertension"]
+
+- input: "No signs of pneumonia or tuberculosis."
+  expected:
+    diagnoses: []
+
+- input: "Diagnosed with asthma and COPD."
+  expected:
+    diagnoses: ["asthma", "COPD"]

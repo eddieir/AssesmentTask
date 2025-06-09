@@ -1,0 +1,11 @@
+- input: "Patient is allergic to penicillin and peanuts."
+  expected:
+    allergies: ["penicillin", "peanuts"]
+
+- input: "The patient has a severe allergy to latex."
+  expected:
+    allergies: ["latex"]
+
+- input: "No known allergies."
+  expected:
+    allergies: []
