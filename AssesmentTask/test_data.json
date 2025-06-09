@@ -1,0 +1,23 @@
+[
+    {
+        "input_text": "Mr. John Smith, a 67-year-old male, was admitted with chest pain and diagnosed with myocardial infarction. He was prescribed aspirin and underwent an angioplasty.",
+        "expected_output": {
+            "patient_name": "John Smith",
+            "age": 67,
+            "gender": "male",
+            "diagnoses": ["myocardial infarction", "chest pain"],
+            "procedures": ["angioplasty"],
+            "medications": ["aspirin"]
+        }
+    },
+    {
+        "input_text": "Ms. Jane Doe, 50, was diagnosed with diabetes and hypertension. She takes metformin and lisinopril.",
+        "expected_output": {
+            "patient_name": "Jane Doe",
+            "age": 50,
+            "gender": "female",
+            "diagnoses": ["diabetes", "hypertension"],
+            "medications": ["metformin", "lisinopril"]
+        }
+    }
+]
